@@ -14,7 +14,7 @@ class Provider implements ServiceProviderInterface
                 return "test123";
         });
 
-
+    }
     public function boot(Application $app)
     {
          $app->finish(function () use ($app) {
